@@ -562,3 +562,21 @@ a.nivo-prevNav {
     color:#efe9d1;
     text-decoration:underline;
 }
+.image {
+	position	: relative;
+	width		: 100%; /* for IE 6 */
+}
+
+h1 {
+	position	: absolute;
+	top		: 20px;
+	left		: 0;
+	width		: 100%;
+}
+
+h3 {
+	position	: absolute;
+	top		: 150px;
+	left		: 0;
+	width		: 100%;
+}
