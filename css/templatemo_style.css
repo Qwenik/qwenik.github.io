@@ -613,12 +613,12 @@ h4 {
 	width		: 100%;
 }
 h5 {
-       position	: absolute;
-	top		: 1230px;
+       position	        : absolute;
+	top		: 1217px;
 	left		: 420px;
 	width		: 55%;
         margin          : 0px;
-        line-height     : 1.4em;
+        line-height     : 1.7em;
 }
 h6 {
        position	: absolute;
