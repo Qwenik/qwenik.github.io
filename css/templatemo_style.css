@@ -18,11 +18,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color:#000;
-	letter-spacing:-1px;
+	color:#000000;
+	letter-spacing:1px;
 	font-weight:400;
 	padding: 0;
 	margin: 0;
+}
+h3 {
+	color:#000000;
+	letter-spacing:1px;
+	font-weight:400;
+	padding: 0;
+	margin:0;
 }
 
 em { color: #ff0d40 }
@@ -41,7 +48,9 @@ h6 { font-size:12px }
 .float_l { float: left }
 .float_r { float:right; margin-right:48px;}
 
-.img_fl { float: left; margin: 3px 15px 5px 0 }
+.img_fl { float: right; margin: 3px -10px 5px 0 }
+.img_f2 { float: right; margin: 3px -20px 5px 0 }
+.img_f3 { float: right; margin: -30px -10px 5px 0 }
 .img_fr { float: left; margin: 3px 0 5px 15px }
 .img_border { background: #fff; padding: 4px; border: 1px solid #eee }
 
@@ -147,7 +156,7 @@ a.more {
 }
 
 #templatemo_footer {
-	width: 940px;
+	width: 900px;
 	padding: 0  22px;
 	margin: 0 auto;
 }
@@ -569,14 +578,45 @@ a.nivo-prevNav {
 
 h1 {
 	position	: absolute;
-	top		: 20px;
+	top		: 25px;
 	left		: 0;
 	width		: 100%;
+}
+h2 {
+	position	: absolute;
+	top		: 30px;
+	left		: 0;
+	width		: 97%;
+        line-height     : 5em;
 }
 
 h3 {
 	position	: absolute;
-	top		: 150px;
+	top		: 597px;
+	left		: 420px;
+	width		: 55%;
+        margin          : 0px;
+        line-height     : 1.2em;
+}
+h4 {
+	position	: absolute;
+	top		: 2050px;
 	left		: 0;
 	width		: 100%;
+}
+h5 {
+       position	: absolute;
+	top		: 1230px;
+	left		: 420px;
+	width		: 55%;
+        margin          : 0px;
+        line-height     : 1.4em;
+}
+h6 {
+       position	: absolute;
+	top		: 1920px;
+	left		: 0px;
+	width		: 100%;
+        margin          : 0px;
+        line-height     : 3em;
 }
