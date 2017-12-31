@@ -55,7 +55,7 @@ h6 { font-size:12px }
 .img_border { background: #fff; padding: 4px; border: 1px solid #eee }
 
 a:link, a:visited { color:#ff0d40}
-a:visited { text-decoration:none }
+a:visited {color :#E6E6FA;}
 a:hover { text-decoration:none }
 a:hover,a:active { outline:none }
 
@@ -67,7 +67,7 @@ a.more {
 	line-height: 25px; 
 	text-align: center; 
 	text-decoration: none; 
-	background: url(../images/templatemo_button01.png) no-repeat; 
+	background: rgb(36, 36, 36); 
 }
 
 .tmo_ul_list { 
@@ -141,9 +141,9 @@ a.more {
 }
 
 #templatemo_bottom {
-	width: 940px;
+	width: 100px;
 	padding: 40px 22px 30px;
-	margin: 0 auto;
+	margin: 0;
 	background: url(../images/templatemo_wrapper_b.png) top center no-repeat
 }
 
@@ -454,9 +454,13 @@ a.more {
 .no_margin_right { margin-right: 0 }
 .last_box { margin-bottom: 0; background: none }
 
+}
+user agent stylesheet
+}
 .pagging { 
 	margin: 0 0 20px; 
-	padding: 0; 
+	padding: 0;
+
 }
 
 .pagging ul { 
@@ -478,12 +482,16 @@ a.more {
 	text-decoration: none; 
 	margin-right: 5px; 
 	padding: 5px 10px; 
-	background: #fff; 
-	border: 1px solid #eee; 
+	background: #E6E6FA; 
+	border: 1px solid #eee;
+
+}
+.palling ul li a:visited{
+        background:none;
 }
 
 .pagging ul li a:hover { 
-	background: #f3b2bd; 
+	background: #E6E6FA; 
 	border: 1px solid #eee; 
 	color: #fff;  
 }
