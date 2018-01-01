@@ -139,6 +139,10 @@ a.more {
 #templatemo_main {
 	padding: 30px 10px 0
 }
+#templatemo_mains {
+	padding: 30px 10px 0
+           
+}
 
 #templatemo_bottom {
 	width: 100px;
@@ -584,13 +588,7 @@ a.nivo-prevNav {
 	width		: 100%; /* for IE 6 */
 }
 
-h1 {
-	position	: absolute;
-	top		: 650px;
-	left		: 0;
-	width		: 100%;
-        line-height     : 1em;
-}
+
 h2 {
 	position	: absolute;
 	top		: 30px;
@@ -599,7 +597,7 @@ h2 {
         line-height     : 5em;
 }
 
-h3 {
+h1 {
 	position	: absolute;
 	top		: 597px;
 	left		: 420px;
@@ -628,4 +626,8 @@ h6 {
 	width		: 100%;
         margin          : 0px;
         line-height     : 3em;
+}
+h3 {
+       position	: absolute;
+
 }
