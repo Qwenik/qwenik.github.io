@@ -586,9 +586,10 @@ a.nivo-prevNav {
 
 h1 {
 	position	: absolute;
-	top		: 25px;
+	top		: 650px;
 	left		: 0;
 	width		: 100%;
+        line-height     : 1em;
 }
 h2 {
 	position	: absolute;
