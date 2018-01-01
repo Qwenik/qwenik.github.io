@@ -54,8 +54,8 @@ h6 { font-size:12px }
 .img_fr { float: left; margin: 3px 0 5px 15px }
 .img_border { background: #fff; padding: 4px; border: 1px solid #eee }
 
-a:link, a:visited { color:#ff0d40}
-a:visited {color :#E6E6FA;}
+a:link, a:visited { color:#6495ED}
+a:visited {color :#6495ED;}
 a:hover { text-decoration:none }
 a:hover,a:active { outline:none }
 
@@ -455,7 +455,7 @@ a.more {
 #content, .col23 { width: 620px }
 .padding_right { padding-right: 20px }
 .col14 { width: 205px }
-.no_margin_right { margin-right: 0 }
+.no_margin_right { margin-right: 50px }
 .last_box { margin-bottom: 0; background: none }
 
 }
@@ -490,12 +490,31 @@ user agent stylesheet
 	border: 1px solid #eee;
 
 }
+.pagging1  a { 
+	float: left; 
+	display: block; 
+	color: #333; 
+	text-decoration: none; 
+	margin-right: 5px; 
+	padding: 5px 10px; 
+	background: #4682B4; 
+	border: 1px solid #eee;
+
+}
 .palling ul li a:visited{
+        background:none;
+}
+.palling1  a:visited{
         background:none;
 }
 
 .pagging ul li a:hover { 
 	background: #E6E6FA; 
+	border: 1px solid #eee; 
+	color: #fff;  
+}
+.pagging1  a:hover { 
+	background: #6495ED; 
 	border: 1px solid #eee; 
 	color: #fff;  
 }
