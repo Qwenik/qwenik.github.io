@@ -618,7 +618,7 @@ h2 {
 
 h1 {
 	position	: absolute;
-	top		: 597px;
+	top		: 0px;
 	left		: 420px;
 	width		: 55%;
         margin          : 0px;
@@ -632,7 +632,7 @@ h4 {
 }
 h5 {
        position	        : absolute;
-	top		: 1217px;
+	top		: 0px;
 	left		: 420px;
 	width		: 55%;
         margin          : 0px;
@@ -640,7 +640,7 @@ h5 {
 }
 h6 {
        position	        : absolute;
-	top		: 1920px;
+	top		: 0px;
 	left		: 0px;
 	width		: 100%;
         margin          : 0px;
