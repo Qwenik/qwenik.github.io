@@ -159,7 +159,7 @@ Email для связи:
 document.getElementById('feedback-form').addEventListener('submit', function(evt){
   var http = new XMLHttpRequest(), f = this;
   evt.preventDefault();
-  http.open("POST", "qwenik.github.io/css/contacts.php", true);
+  http.open("POST", "http://qwenik.github.io/css/contacts.php", true);
   http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   http.send("nameFF=" + f.nameFF.value + "&contactFF=" + f.contactFF.value + "&messageFF=" + f.messageFF.value);
   http.onreadystatechange = function() {
@@ -185,6 +185,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 "' alt='' title='LiveInternet: показано число просмотров и"+
 " посетителей за 24 часа' "+
 "border='0' width='88' height='31'><\/a>")
+<?php echo date("Y"); ?>
 </script><!--/LiveInternet-->
 <div align="center"><big><big>© 2017-2018 <a ="#">Разработка сайта "Offerfromlove"<br>По вопросам создания сайта обращаться <a href="https://mail.google.com" target="_parent">Offerfromlove@gmail.com<big><big></a>
         </div>
