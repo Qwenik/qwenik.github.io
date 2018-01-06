@@ -116,8 +116,7 @@ a.more {
 	background:url(../images/templatemo_wrapper_m.png) repeat-y center
 }#templatemo_wrapper1 {
 	position: absolute;
-	margin: 0 auto;
-
+        width: 980px;
 }
 
 
