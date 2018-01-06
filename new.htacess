@@ -1,5 +1,0 @@
-AddHandler fcgid-script .php .phtml .html .htm
-FCGIWrapper /var/www/offerfromlove.ml/data/php-bin/php .php
-FCGIWrapper /var/www/offerfromlove.ml/data/php-bin/php .phtml
-FCGIWrapper /var/www/offerfromlove.ml/data/php-bin/php .html
-FCGIWrapper /var/www/offerfromlove.ml/data/php-bin/php .htm
