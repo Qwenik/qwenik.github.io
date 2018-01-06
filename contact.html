@@ -159,7 +159,7 @@ Email для связи:
 document.getElementById('feedback-form').addEventListener('submit', function(evt){
   var http = new XMLHttpRequest(), f = this;
   evt.preventDefault();
-  http.open("POST", "css/contacts.php", true);
+  http.open("POST", "file:///D:/c%D0%B0%D0%B9%D1%82/qwenik.github.io/css/contacts.php", true);
   http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   http.send("nameFF=" + f.nameFF.value + "&contactFF=" + f.contactFF.value + "&messageFF=" + f.messageFF.value);
   http.onreadystatechange = function() {
