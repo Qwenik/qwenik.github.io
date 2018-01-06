@@ -117,7 +117,7 @@ a.more {
 }#templatemo_wrapper1 {
 	position: relative;
 	margin:0;
-	width: 0px;
+	width: 0 auto;
 
 	background:url(../images/templatemo_wrapper_m.png) repeat-y center
 }
