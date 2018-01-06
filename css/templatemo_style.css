@@ -114,7 +114,12 @@ a.more {
 	width: 960px;
 	padding: 10px 12px;
 	background:url(../images/templatemo_wrapper_m.png) repeat-y center
+}#templatemo_wrapper1 {
+	position: absolute;
+	margin: 0 auto;
+
 }
+
 
 #templatemo_wrapper_top {
 	position: absolute;
