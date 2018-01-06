@@ -116,8 +116,10 @@ a.more {
 	background:url(../images/templatemo_wrapper_m.png) repeat-y center
 }#templatemo_wrapper1 {
 	position: relative;
-        margin: 0 auto;
-        background:url(../images/templatemo_wrapper_m.png) repeat-y center
+	margin: 0 ;
+	width: 960px;
+	padding: 10px 12px;
+	background:url(../images/templatemo_wrapper_m.png) repeat-y center
 }
 
 
