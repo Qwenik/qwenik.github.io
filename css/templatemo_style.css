@@ -17,7 +17,7 @@ body {
 	background-position: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
 	color:#000000;
 	letter-spacing:1px;
 	font-weight:400;
@@ -136,7 +136,7 @@ a.more {
 	width: 940px;
 	height: 51px;
 	padding: 25px 10px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	background: url(../images/templatemo_header_bg.jpg)
 }
 
